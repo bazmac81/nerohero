@@ -12,7 +12,7 @@
 <body>
   <header class="container-fluid">
     <div class="row">
-      <div class="col-12 hero mx-auto">
+      <div class="col-12 col-sm-9 mx-auto">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
             <a class="navbar-brand logo" href="#"><img src="https://caffenero.com/uk/wp-content/themes/caffenero/images/branding/caffenero-logo-gb.svg" alt="Caffè Nero"/></a>
@@ -20,9 +20,9 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link" href="/faqs.html">FAQs</a>
+                  <a class="nav-link" data-bs-toggle="modal" href="#faqs" role="button">FAQs</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" data-bs-toggle="modal" href="#tandcs" role="button">T&amp;Cs</a>
@@ -34,19 +34,18 @@
             </div>
           </div>
         </nav>
-        <div class="row">
-          <div class="col-12 mx-auto">
-            <h1>Nero Heroes</h1>
-            <a class="typeform-share button main" href="https://form.typeform.com/to/g9ujtQeN?typeform-medium=embed-snippet" data-mode="popup" data-size="70" data-submit-close-delay="0" target="_blank">Nominate my Hero</a> 
-          </div>
-        </div>
       </div>
     </div>
   </header>
   
   <main class="container-fluid">
+    <div class="row no-gutter">
+      <div class="col-12 col-md-9 mx-auto banner pb-5">
+        <a class="typeform-share button main" href="https://form.typeform.com/to/g9ujtQeN?typeform-medium=embed-snippet" data-mode="popup" data-size="70" data-submit-close-delay="0" target="_blank">Nominate my Hero</a> 
+      </div>
+    </div>
     <div class="row mt-4">
-        <div class="col-11 col-lg-9 mx-auto my-2">
+        <div class="col-12 col-md-9 mx-auto my-2">
           <h2>Who is your community Hero?</h2>
           <p>Nominate your hero for the great things they'd done for your community and we'll award them with coffee on us for a full year, helping you to say thank you for everything they've done and continue to do.</p>
           <h2>What is a Nero Hero?</h2>
@@ -105,6 +104,31 @@
     </div>
   </div>
   
+  <div class="modal fade" tabindex="-1" id="faqs" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">Do you have some questions?</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p>Check out our FAQs bellow to find our more about our new Nero Heros award.</p>
+            <h3>What is a Nero Hero?</h3>
+            <p>A member of your community that has shown the vales that are important to us at Nero</p>
+            <h3>What are your values?</h3>
+            <p>We have a very simple set of values but they mean a lot. When people join Caffe Nero, we look for honest, caring people that have integrity and are resiliant among many others. During this last year it's people that display this values in what they do that have helped communities through difficult times and we'd like to help you recognise and thank them.</p>
+            <h3>How do I nominate my Hero?</h3>
+            <p>Simply click the link to complete the nomination form and tell us about your community hero.</p>
+            <h3>Are there any Terms &amp; Conditions I should be aware of?</h3>
+            <p>There are terms &amp; conditions, which you can see if full by using the link in the menu, or at the bottom of the page.</p></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="button" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
