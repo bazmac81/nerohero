@@ -3,37 +3,37 @@
 
 @font-face {
   font-family: "NeutrafaceText-Book";
-  src: url("https://caffenero.com/wp-content/themes/caffenero//fonts/NeutrafaceText-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/NeutrafaceText-Book.otf") format("opentype"), url("../fonts/NeutrafaceText-Book.woff") format("woff"), url("../fonts/NeutrafaceText-Book.ttf") format("truetype"), url("../fonts/NeutrafaceText-Book.svg#NeutrafaceText-Book") format("svg");
+  src: url("https://caffenero.com/wp-content/themes/caffenero/fonts/NeutrafaceText-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/NeutrafaceText-Book.otf") format("opentype"), url("../fonts/NeutrafaceText-Book.woff") format("woff"), url("../fonts/NeutrafaceText-Book.ttf") format("truetype"), url("../fonts/NeutrafaceText-Book.svg#NeutrafaceText-Book") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "LunchBox";
-  src: url("https://caffenero.com/wp-content/themes/caffenero//fonts/327C25_0_0.eot") format("embedded-opentype"), url("../fonts/327C25_0_0.woff") format("woff"), url("../fonts/327C25_0_0.ttf") format("truetype");
+  src: url("https://caffenero.com/wp-content/themes/caffenero/fonts/327C25_0_0.eot") format("embedded-opentype"), url("../fonts/327C25_0_0.woff") format("woff"), url("../fonts/327C25_0_0.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Bodoni";
-  src: url("https://caffenero.com/wp-content/themes/caffenero//fonts/Bodoni-72-Book.otf") format("opentype"), url("../fonts/Bodoni-72-Book.ttf") format("truetype");
+  src: url("https://caffenero.com/wp-content/themes/caffenero/fonts/Bodoni-72-Book.otf") format("opentype"), url("../fonts/Bodoni-72-Book.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Bodoni";
-  src: url("https://caffenero.com/wp-content/themes/caffenero//fonts/Bodoni-72-Bold.otf") format("opentype"), url("../fonts/Bodoni-72-Bold.ttf") format("truetype");
+  src: url("https://caffenero.com/wp-content/themes/caffenero/fonts/Bodoni-72-Bold.otf") format("opentype"), url("../fonts/Bodoni-72-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "Bodoni";
-  src: url("https://caffenero.com/wp-content/themes/caffenero//fonts/Bodoni-72-Book-Italic.otf") format("opentype"), url("../fonts/Bodoni-72-Book-Italic.ttf") format("truetype");
+  src: url("https://caffenero.com/wp-content/themes/caffenero/fonts/Bodoni-72-Book-Italic.otf") format("opentype"), url("../fonts/Bodoni-72-Book-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: "Bodoni";
-  src: url("https://caffenero.com/wp-content/themes/caffenero//fonts/Bodoni-72-Bold-Italic.otf") format("opentype"), url("../fonts/Bodoni-72-Bold-Italic.ttf") format("truetype");
+  src: url("https://caffenero.com/wp-content/themes/caffenero/fonts/Bodoni-72-Bold-Italic.otf") format("opentype"), url("../fonts/Bodoni-72-Bold-Italic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
 }
@@ -45,7 +45,7 @@ h1, h2, h3 {
 .banner {
   background: url(../images/logo2.png) center center no-repeat;
   background-size: contain;
-  height: 75vh;
+  height: 33vh;
   text-align: center;
   display: flex;
   justify-content:center;
@@ -64,4 +64,10 @@ h1, h2, h3 {
 
 .sublist {
   list-style-type: lower-alpha;
+}
+
+@media (min-width: 1000px) {
+  .banner {
+    height: 75vh;
+  }
 }
