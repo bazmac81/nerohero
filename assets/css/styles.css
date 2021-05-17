@@ -43,8 +43,8 @@ h1, h2, h3 {
 }
 
 .banner {
-  background: url(../images/logo.png) center center no-repeat;
-  background-size: cover;
+  background: url(../images/logo2.png) center center no-repeat;
+  background-size: contain;
   height: 75vh;
   text-align: center;
   display: flex;
@@ -56,4 +56,12 @@ h1, h2, h3 {
   display: flex;
   justify-content: space-between;
   background-color: #000000;
+}
+
+.mainlist > li {
+  margin-bottom: 10px;
+}
+
+.sublist {
+  list-style-type: lower-alpha;
 }
