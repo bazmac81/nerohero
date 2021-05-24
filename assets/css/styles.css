@@ -11,18 +11,35 @@ h3, h4, h5 {
   font-style: italic;
 }
 
+.logo {
+  width: 100%;
+  position: absolute;
+  z-index: -10;
+  display: flex;
+  justify-content:center;
+}
+
+.logo-img {
+  width: 250px;
+}
+
+nav {
+  margin: 50px 0px; 
+}
+
+#spotlight-video {
+  width: 100%;
+}
+
 .nav-link {
   font-size: 1.5rem;
 }
 
 .banner {
-  background: url(../images/logo2.png) center center no-repeat;
-  background-size: contain;
-  height: 33vh;
   text-align: center;
   display: flex;
   justify-content:center;
-  align-items:flex-end;
+  align-items: center;
 }
 
 p, li {
@@ -47,8 +64,23 @@ p {
   list-style-type: lower-alpha;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1250px) {
   .banner {
-    height: 75vh;
+    align: center;
+    height: 125vh;
+  }
+}
+
+@media (max-width: 350px) {
+  .logo {
+    justify-content: start;
+  }
+  
+  .logo-img {
+    width: 175px;
+  }
+
+  nav {
+    margin: 35px 0px;
   }
 }
