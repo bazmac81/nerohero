@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+  background-color: #e5e5e5;
+}
+
 h1, h2 {
   font-family: "Neutraface Text Alt", "NeutrafaceText", "NeutrafaceText", "NeutrafaceText-Book", "NeutrafaceText-BoldAlt", Helvetica, Arial, sans-serif;
 }
@@ -29,6 +33,12 @@ h3, h4, h5 {
 
 #spotlight-video {
   width: 100%;
+  border: none;
+  box-shadow: none;
+  outline: unset;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-link {
@@ -40,6 +50,7 @@ h3, h4, h5 {
   display: flex;
   justify-content:center;
   align-items: center;
+  border: none;
 }
 
 p, li {
@@ -67,7 +78,7 @@ p {
 @media (min-width: 1250px) {
   .banner {
     align: center;
-    height: 125vh;
+    height: 150vh;
   }
 }
 
