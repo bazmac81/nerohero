@@ -64,14 +64,15 @@ p {
 
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-grow: 1;
   background-color: #000000;
 }
 
 .tandcs {
   color: #ad8e5b;
   text-align: center;
-  margin-top:10px;
+  margin-top: 20px;
 }
 
 .tandcs p{
