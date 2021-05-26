@@ -68,6 +68,16 @@ p {
   background-color: #000000;
 }
 
+.tandcs {
+  color: #ad8e5b;
+  text-align: center;
+  margin-top:10px;
+}
+
+.tandcs p{
+  font-size: 0.75rem;
+}
+
 .mainlist > li {
   margin-bottom: 10px;
 }
