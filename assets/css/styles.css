@@ -75,13 +75,6 @@ p {
   list-style-type: lower-alpha;
 }
 
-@media (min-width: 1250px) {
-  .banner {
-    align: center;
-    height: 150vh;
-  }
-}
-
 @media (max-width: 350px) {
   .logo {
     justify-content: start;
