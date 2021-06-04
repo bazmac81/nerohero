@@ -46,6 +46,12 @@ h3, h4, h5 {
   font-size: 1.5rem;
 }
 
+.closed {
+  background-color: #444444;
+  padding: 5px 15px;
+  color: #ffffff;
+}
+
 .banner {
   text-align: center;
   display: flex;
