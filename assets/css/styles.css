@@ -5,8 +5,12 @@ body {
   background-color: #e5e5e5;
 }
 
-h1, h2 {
+h1, h2, .accordion-button {
   font-family: "Neutraface Text Alt", "NeutrafaceText", "NeutrafaceText", "NeutrafaceText-Book", "NeutrafaceText-BoldAlt", Helvetica, Arial, sans-serif;
+}
+
+.accordion-button {
+  text-transform: capitalize;
 }
 
 h3, h4, h5 {
@@ -60,7 +64,7 @@ h3, h4, h5 {
   border: none;
 }
 
-p, li {
+p, li, .accordion-body {
   font-family: 'Futura-pt', arial, sans-serif;
 }
 
