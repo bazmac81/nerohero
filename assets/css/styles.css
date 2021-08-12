@@ -93,6 +93,10 @@ p {
   list-style-type: lower-alpha;
 }
 
+.no_dec {
+  list-style-type: none;
+}
+
 @media (max-width: 350px) {
   .logo {
     justify-content: start;
